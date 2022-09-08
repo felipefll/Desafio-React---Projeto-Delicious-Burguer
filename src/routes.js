@@ -11,7 +11,7 @@ function Routes() {
         <Router>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/usuarios" component={Users} />
+                <Route exact path="/pedidos" component={Users} />
             </Switch>
         </Router>
     )

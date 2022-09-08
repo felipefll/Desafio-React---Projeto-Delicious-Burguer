@@ -27,7 +27,7 @@ function App() {
 
     setUsers([...users, newUser]);
 
-    history.push('/usuarios')
+    history.push('/pedidos')
   }
 
   return (
